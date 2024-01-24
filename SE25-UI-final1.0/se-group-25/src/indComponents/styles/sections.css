@@ -1,0 +1,41 @@
+.canvas-content {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .canvas-header {
+    padding: 20px ;
+    border-radius: 10px;
+  }
+  
+  .canvas-header-light {
+    background-color: #eeeeee;
+  }
+
+  .canvas-header-dark {
+    background-color: #141414;
+    color: #ddd;
+  }
+
+  .canvas-header h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .canvas-header p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .canvas-description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+
+  .canvas-description-dark {
+    color: #ddd;
+  }

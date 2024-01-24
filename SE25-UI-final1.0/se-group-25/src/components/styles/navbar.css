@@ -1,0 +1,134 @@
+.navbar-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.empty-div {
+    min-width: 150px;
+}
+
+.theme-btn {
+    display: flex;
+    overflow: visible;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 2.5px;
+    outline: 0px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.theme-btn-light{
+    border: none;
+    background-color: #f1f1f1;
+    transition: all 200ms ease;
+}
+
+.theme-btn-dark{
+    border: none;
+    background-color: #292929;
+    transition: all 200ms ease;
+}
+
+.theme-btn-light:hover{
+    background-color: #e7e7e7;
+    transition: all 100ms ease;
+}
+
+.theme-btn-dark:hover{
+    background-color: #323232;
+    transition: all 100ms ease;
+}
+
+.navbar-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-dropdown-light {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 200ms ease;
+    cursor: pointer;
+}  
+
+.profile-dropdown-dark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 200ms ease;
+    cursor: pointer;
+} 
+
+.profile-dropdown-dark div{
+    background-color: #3f3f3f;
+    transition: all 200ms ease;
+}
+.profile-dropdown-light:hover div img{
+    -webkit-box-shadow: 0 0 1px 3px #000 inset;
+    -moz-box-shadow: 0 0 1px 3px #000 inset;
+    box-shadow: 0 0 1px 3px #000 inset;
+    z-index: 2;
+}
+
+
+.profile-dropdown-dark svg{
+    color: #e9e9e9;
+    transition: all 200ms ease;
+}
+
+.profile-dropdown-list{
+    position: absolute;
+    right: 20px;
+    margin-top: 5px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.dropdown-list-light{
+    box-shadow: 0px 0px 4px 1px rgb(0,0,0,0.3);
+    background-color: #e7e7e7;
+}
+
+.dropdown-list-dark{
+    box-shadow: 0px 0px 4px 1px rgb(0,0,0,0.3);
+    background-color: #474747;
+}
+
+.profile-dropdown-list a{
+    text-decoration: none;
+    padding: 10px;
+    width: 100px;
+}
+
+.dropdown-list-light a{
+    color: black
+}
+
+.dropdown-list-dark a{
+    color: white;
+}
+
+.dropdown-list-light a:hover{
+    background-color: rgb(197, 197, 197)
+}
+
+.dropdown-list-dark a:hover {
+    background-color: #232323;
+}
+
+.course-code-div {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

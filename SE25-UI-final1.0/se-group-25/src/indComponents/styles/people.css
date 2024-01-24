@@ -1,0 +1,11 @@
+.table-row-name {
+    text-transform: capitalize;
+}
+
+.table {
+    overflow: hidden;
+    border-radius: 5px !important;
+}
+.table-dark {
+    --bs-table-bg: #141414 !important;
+}

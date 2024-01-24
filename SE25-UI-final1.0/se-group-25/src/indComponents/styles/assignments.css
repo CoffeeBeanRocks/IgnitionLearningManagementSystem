@@ -1,0 +1,212 @@
+.canvas-assignment-header, .canvas-announcement-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.assignment-list-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.assignment-list-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.assignment-list-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.assignment-list-dueDate {
+    /* color: rgb(20, 100, 150); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+.ind-assignment-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ind-assignment-header div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.ind-assignment-body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.assignment-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.submitted-link {
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.assignment-upload-container {
+    background-color: #eeeeee;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file-upload-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file-upload-btn input {
+    background: none !important;
+    padding: 10px 0px 10px 0px;
+}
+
+input::file-selector-button{
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.177);
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+    transition: all 150ms ease;
+}
+
+input::file-selector-button:hover{
+    background: rgb(241, 241, 241);
+    transition: all 150ms ease;
+}
+
+.assignment-view-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.assignment-submission-view {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0px !important;
+}
+
+.submit-user-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submission-header {
+    font-size: 25px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 30px rgba(108, 108, 108, 0.092)  inset;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal-dialog {
+    min-width: 750px;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-div,.input-div-file{
+    display: grid;
+    gap: 5px;
+}
+
+.input-div-file input{ 
+    background-color: #fff;
+    padding: 1px;
+    width: 250px;
+}
+
+.input-div input {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #b4b4b4;
+    font-size: 100%;
+}
+
+.input-div textarea {
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #b4b4b4;
+    resize: none;
+    width: 100%;
+    height: 100px;
+}
+
+.input-div input:focus, .input-div textarea:focus{
+    border: 1px solid red;
+    box-shadow: 0 0 0 1px red;
+}
+
+.rdtPicker td.rdtToday:before {
+    border-bottom: 7px solid red !important;
+}
+.rdtPicker td.rdtActive, .rdtPicker td.rdtActive:hover {
+    background-color: red !important;
+}
+
+.modal-pdf-viewer .modal-body{
+    height: 550px;
+}
+
+.pdf-viewer {
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.pdf-open-btn {
+    background: none;
+    border: none;
+    width: 100%;
+}
+
+
+.subheader-light {
+    background: #f6f6f6;
+}
+
+.subheader-dark {
+    background: #212121;
+    color: white;
+}
+
+.subcard-light .submit-user-info{
+    background-color: #eeeeee;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.subcard-dark .submit-user-info{
+    background-color: #333333;
+    border-bottom: 1px solid #262626;
+}

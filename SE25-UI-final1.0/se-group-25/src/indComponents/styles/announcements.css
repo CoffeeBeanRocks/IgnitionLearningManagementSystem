@@ -1,0 +1,47 @@
+.canvas-announcements {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.announcement-wrapper {
+    padding: 0px !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.canvas-post-light textarea {
+    background-color: #e0e0e0;
+}
+
+.announcement-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.canvas-post-dark textarea {
+    background-color: #272727;
+    color: #ddd;
+}
+
+.announcement-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.announcement-person {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+.announcement-email {
+    color: #808080;
+}

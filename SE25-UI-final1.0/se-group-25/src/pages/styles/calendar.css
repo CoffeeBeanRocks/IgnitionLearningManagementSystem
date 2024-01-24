@@ -1,0 +1,101 @@
+.rbc-toolbar span button{
+    background-color: #ff3c3c;
+    color: white;
+    border: none;
+    border-radius: 5px !important;
+}
+
+.rbc-toolbar .rbc-btn-group {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.rbc-toolbar span button:hover{
+    background-color: #dc2525;
+    color: #fff;
+}
+
+.rbc-date-cell button{
+    color: #ff3c3c;
+}
+
+.rbc-active {
+    color: white !important;
+    background-color: #c60000 !important;
+}
+
+.rbc-toolbar span button:focus{
+    background-color: #c60000 !important;
+    color: white !important;
+}
+
+.calendar-dark .rbc-off-range-bg{
+    background-color: #262626;
+    color: white;
+}
+
+.calendar-dark .rbc-header, .calendar-dark .rbc-time-view .rbc-timeslot-group{
+    border-bottom: 1px solid #323232;
+}
+
+.calendar-dark .rbc-time-header.rbc-overflowing{
+    border-right: 1px solid #323232
+}
+
+.calendar-dark .rbc-time-view, .calendar-dark .rbc-month-view{
+    border: 1px solid #323232;
+    border-radius: 5px;
+}
+
+.calendar-dark .rbc-time-content, .calendar-dark .rbc-time-slot, .calendar-dark .rbc-month-row + .rbc-month-row {
+    border-top: 1px solid #323232;
+}
+
+.calendar-dark .rbc-time-header-content, .calendar-dark .rbc-time-content > * + * > *, .calendar-dark .rbc-day-bg + .rbc-day-bg, .calendar-dark .rbc-header + .rbc-header{
+    border-left: 1px solid #323232;
+}
+
+.calendar-light .rbc-today{
+    background-color: #ff9898 !important;
+}
+
+.calendar-dark .rbc-today{
+    background-color: #940000 !important;
+}
+
+.calendar-light .rbc-current button{
+    color: #b53535 !important;
+}
+
+.calendar-dark .rbc-current button {
+    color: #ff7979 !important;
+}
+
+.calendar-dark .rbc-current-time-indicator{
+    background-color: #ffbbbb !important;
+}
+
+.calendar-light .rbc-current-time-indicator{
+    background-color: #db0000 !important;
+}
+
+.rbc-off-range button {
+    color: #747474;
+}
+
+.rbc-event{
+    background-color: #940000;
+    border: 0px !important;
+}
+
+::-webkit-scrollbar {
+    height: auto;
+}
+  
+::-webkit-scrollbar-thumb {
+    border: 4px solid rgba(0, 0, 0, 0);
+    background-clip: padding-box;
+    border-radius: 10px;
+    background-color: #AAAAAA;
+}

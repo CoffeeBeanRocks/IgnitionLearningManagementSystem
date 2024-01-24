@@ -1,0 +1,186 @@
+.dashboard-light{
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.dashboard-dark{
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.calendar-dark{
+    color: white;
+}
+
+.subject-cards{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.subject-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-width: 450px;
+    max-width: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-light{
+    background-color: #eeeeee;
+    color: black;
+}
+
+.card-dark{
+    background-color: #2a2a2a;
+}
+
+.subject-card-color{
+    height: 3px;
+}
+
+.subject-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card-header-light{
+    background-color: #e3e3e3;
+}
+
+.card-header-dark{
+    background-color: #131313;
+}
+
+.subject-details{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card-link-dark a{
+    color: white;
+}
+
+.subject-card-link{
+    text-decoration: none;
+}
+
+.card-A-plus{
+    background-color: #0cb000;
+}
+
+.card-A-minus{
+    background-color: #0a9800;
+}
+
+.card-B-plus{
+    background-color: #50b800;
+}
+
+.card-B{
+    background-color: #70d900;
+}
+
+.card-B-minus{
+    background-color: #9dff00;
+}
+
+.card-C{
+    background-color: #bbd700;
+}
+
+.card-D{
+    background-color: #ffa200;
+}
+
+.card-F{
+    background-color: #ff0000;
+}
+
+.dashboard-notif-sub{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    min-width: 500px;
+}
+
+.notif-title-dark{
+    color: white;
+}
+
+.notif-bounding-box {
+    overflow-y: scroll;
+    max-height: 205px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.notif-box {
+    background-color: #630000;
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+}
+
+.notif-box a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.notif-box a:hover{
+    color: white;
+}
+
+.notif-box:hover .notif-header{
+    scale: 1.01;
+    transition: all 200ms ease;
+}
+
+.notif-header{
+    background-color: #3f0000;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 15px;
+}
+
+.notif-message{
+    padding: 10px;
+}
+
+
+.search-button-light input {
+    width: 400px !important;
+    top: 20px;
+    position: absolute;
+    right: 35%;
+}
+
+
+.search-button-dark input {
+    width: 400px !important;
+    top: 20px;
+    background: #141414 !important;
+    color: white;
+    position: absolute;
+    right: 35%;
+}
